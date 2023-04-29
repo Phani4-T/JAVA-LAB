@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+public class DataTypes
+{
+	static int a;
+	static float b;
+	static short c;
+	static double d;
+	static char e;
+	static boolean f;
+	static byte g;
+	static long h;
+	
+	public static void main(String args[])
+	{
+	 System.out.println("int"+a);
+	 System.out.println("float"+b);
+	 System.out.println("short"+c);
+	 System.out.println("double"+d);
+	 System.out.println("char"+e);
+	 System.out.println("boolean"+f);
+	 System.out.println("byte"+g);
+	 System.out.println("long"+h);
+	}
+}

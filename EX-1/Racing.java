@@ -1,0 +1,37 @@
+import java.io.*;
+import java.util.*;
+ public class Racing
+{
+	public static void main(String args[])
+	{
+		int a,b,c,d,e;
+		System.out.println("Enter Speeds of Racers:");
+		Scanner sc=new Scanner(System.in);
+		a=sc.nextInt();
+		b=sc.nextInt();
+		c=sc.nextInt();
+		d=sc.nextInt();
+		e=sc.nextInt();
+		float avg=(a+b+c+d+e)/5;
+		if(a>=avg)
+		{
+			System.out.println("Qualified!Speed="+a);
+		}
+		if(b>=avg)
+		{
+			System.out.println("Qualified!Speed="+b);
+		}
+		if(c>=avg)
+		{
+			System.out.println("Qualified!Speed="+c);
+		}
+		if(d>=avg)
+		{
+			System.out.println("Qualified!Speed="+d);
+		}
+		if(e>=avg)
+		{
+			System.out.println("Qualified!Speed="+e);
+		}
+	}
+}
